@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>API User Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>API User Dashboard</h1>
+        <p>Fetch and display users from a public API</p>
+    </header>
+
+    <main class="container">
+
+        <div class="top-section">
+            <h2>Our Users</h2>
+            <button id="refreshBtn">↻ Refresh Users</button>
+        </div>
+
+        <p id="status">Click refresh to load users.</p>
+
+        <div id="userContainer" class="user-container"></div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
